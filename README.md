@@ -1,6 +1,6 @@
 **I build API for people (with some ocassional bugs 🙈)**
 
-## Want to try my stack?
+## Want to try stack I use?
 
 ### Get GraphQL backend  
 

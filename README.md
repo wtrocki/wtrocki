@@ -22,7 +22,7 @@ npx graphql-serve serve --port=5400 --datasync model.graphql
 ```
 Powered by https://graphback.dev
 
-##### Get Data to client (with offline support)
+##### Build client apps without being data engineer (with offline support)
 
 > Generate client side database (with automatic replication to server)
 ```bash

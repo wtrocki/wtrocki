@@ -1,4 +1,4 @@
-**I do build API for people (with some ocassional bugs 🙈)**
+**I build API for people (with some ocassional bugs 🙈)**
 
 #### Want to try my stack?
 

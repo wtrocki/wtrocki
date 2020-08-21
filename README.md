@@ -35,20 +35,14 @@ import { GithubRepositoryModel } from './generated';
 import { DataStore } from 'offix-datastore';
 
 export const datastore = new DataStore({
-  dbName: "offix-datasync",
+  dbName: "githubdb",
   replicationConfig: {
     client: {
       url: "http://localhost:5400/graphql",
-      wsUrl: "ws://localhost:5400/graphql",
     }
   }
 });
 
-GithubRepositoryModel.save({name: "offix"}).then(async (result) => {
-    result.name = "offix datastore";
-    await UserModel.updateById(result);
-    await UserModel.removeById(result.id);
-}).catch(console.log)
-``` 
+GithubRepositoryModel.save({name: "offix"}).then(console.log)
 
 Powered by https://offix.dev

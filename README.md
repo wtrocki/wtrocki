@@ -1,8 +1,8 @@
 **I build API for people (with some ocassional bugs 🙈)**
 
-#### Want to try my stack?
+## Want to try my stack?
 
-##### Get GraphQL backend  
+### Get GraphQL backend  
 
 > Define your data using GraphQL
 
@@ -22,7 +22,7 @@ npx graphql-serve serve --port=5400 --datasync model.graphql
 ```
 Powered by https://graphback.dev
 
-##### Build client apps without being data engineer (with offline support)
+### Build client apps without being data engineer (with offline support)
 
 > Generate client side database (with automatic replication to server)
 ```bash

@@ -26,7 +26,7 @@ Powered by https://graphback.dev
 
 > Generate client side database (with automatic replication to server)
 ```bash
-npx @offix/cli generate model.graphql ./generated
+npx @offix/cli generate --schema model.graphql --outputPath ./generated
 ```
 > Use simplied API to work with the database or hooks if you react(ing)
 

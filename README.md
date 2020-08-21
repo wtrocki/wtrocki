@@ -42,7 +42,6 @@ export const datastore = new DataStore({
     }
   }
 });
-
 GithubRepositoryModel.save({name: "offix"}).then(console.log)
-
+```
 Powered by https://offix.dev

@@ -1,4 +1,4 @@
-> I do build API for people (with some ocassional bugs)
+**I do build API for people (with some ocassional bugs 🙈)**
 
 #### Want to try my stack?
 
@@ -11,7 +11,6 @@
 type GithubRepository {
  _id: MongoObjectID!
  name: String
- url: String
 }
 ``` 
 \> model.graphql
@@ -21,15 +20,14 @@ type GithubRepository {
 ```bash
 npx graphql-serve serve --port=5400 --datasync model.graphql
 ```
-
-Open GraphQL playground link 
 Powered by https://graphback.dev
 
 ##### Get Data to client (with offline support)
 
 > Generate client side database (with automatic replication to server)
-npx @offix/cli generate model.graphql ./client/generated
-
+```bash
+npx @offix/cli generate model.graphql ./generated
+```
 > Use simplied API to work with the database or hooks if you react(ing)
 
 ```ts

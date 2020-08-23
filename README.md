@@ -1,5 +1,6 @@
 **I build API for people**
-## Try stack I use?
+
+## Try stack I use
 
 ### Build GraphQL backend  
 

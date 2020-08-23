@@ -1,8 +1,7 @@
-**I build API for people (with some ocassional bugs 🙈)**
+**I build API for people**
+## Try stack I use?
 
-## Want to try stack I use?
-
-### Get GraphQL backend  
+### Build GraphQL backend  
 
 > Define your data using GraphQL
 

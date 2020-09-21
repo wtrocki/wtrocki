@@ -1,8 +1,6 @@
-**I build API solutions for people and machines. Not interested in code? Look https://wtrocki.com **
+I build API solutions for people and machines. Not interested in code? Look https://wtrocki.com
 
-## Try stack I use
-
-### Build GraphQL backend  
+##### Build GraphQL backend in less than 1 minute.
 
 > Define your data using GraphQL 
 

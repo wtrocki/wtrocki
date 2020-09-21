@@ -18,7 +18,7 @@ type GithubRepository {
 scalar MongoObjectID
 ``` 
 
-2. Get your API server based on that model is backed by MongoDB database
+3. Get your API server based on that model is backed by MongoDB database
 
 ```bash
 npx graphql-serve serve --port=5400 --datasync model.graphql

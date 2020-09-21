@@ -15,7 +15,7 @@ type GithubRepository {
 ``` 
 \> model.graphql
 
-> Run API server that is backed by mongo database
+> Run API server that is backed by MongoDB database
 
 ```bash
 npx graphql-serve serve --port=5400 --datasync model.graphql

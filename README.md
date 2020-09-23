@@ -4,11 +4,11 @@ I build API solutions for people and machines. Not interested in code? Look http
 
 1. Define your data using GraphQL by creating model file.
 
-`touch model.graphql && open model.graphql`
+`touch model.graphql`
 
 2. Build your model 
 
-```graphql
+```graphql title="model.graphql"
 """ @model @datasync """
 type GithubRepository {
  _id: MongoObjectID!

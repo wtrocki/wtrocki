@@ -9,13 +9,16 @@ I build API solutions for people and machines. Not interested in code? Look http
 2. Build your model 
 
 ```graphql title="model.graphql"
-""" @model @datasync """
+""" 
+@model 
+@datasync 
+"""
 type GithubRepository {
- _id: MongoObjectID!
+ _id: GraphbackObjectID!
  name: String
 }
 
-scalar MongoObjectID
+scalar GraphbackObjectID
 ``` 
 
 3. Get your API server based on that model is backed by MongoDB database
